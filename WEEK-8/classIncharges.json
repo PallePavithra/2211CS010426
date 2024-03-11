@@ -4,7 +4,7 @@
         "Year":"II",
         "Semester":"II",
         "Section":"ALPHA",
-        "ContactNo.":"9894965756"
+        "ContactNo":"9894965756"
     },
 
     {
@@ -12,7 +12,7 @@
         "Year":"II",
         "Semester":"II",
         "Section":"BETA",
-        "ContactNo.":"9701260289"
+        "ContactNo":"9701260289"
     },
 
     {
@@ -20,7 +20,7 @@
         "Year":"II",
         "Semester":"II",
         "Section":"GAMMA",
-        "ContactNo.":"9566841184"
+        "ContactNo":"9566841184"
     },
 
     {
@@ -28,7 +28,7 @@
         "Year":"II",
         "Semester":"II",
         "Section":"DELTA",
-        "ContactNo.":"9701723629"
+        "ContactNo":"9701723629"
     },
 
     {
@@ -36,7 +36,7 @@
         "Year":"II",
         "Semester":"II",
         "Section":"SIGMA",
-        "ContactNo.":"8008463700"
+        "ContactNo":"8008463700"
     },
 
     {
@@ -44,7 +44,7 @@
         "Year":"II",
         "Semester":"II",
         "Section":"OMEGA",
-        "ContactNo.":"9640051898"
+        "ContactNo":"9640051898"
     },
 
     {
@@ -52,7 +52,7 @@
         "Year":"II",
         "Semester":"II",
         "Section":"ZETA",
-        "ContactNo.":"7702976749"
+        "ContactNo":"7702976749"
     },
 
     {
@@ -60,7 +60,7 @@
         "Year":"II",
         "Semester":"II",
         "Section":"EPSILON",
-        "ContactNo.":"9951414245"
+        "ContactNo":"9951414245"
     }
 
 ]
