@@ -15,7 +15,7 @@ app.listen(PORT, () => {
 });
 
 // MongoDB connection URI
-const MONGODB_URI = 'mongodb://localhost:27017/Student'; // Adjust to your MongoDB URI
+const MONGODB_URI = 'mongodb+srv://user1:user1@mycluster.vdvffyg.mongodb.net/Student?retryWrites=true&w=majority&appName=MyCluster'; // Adjust to your MongoDB URI
 
 // Default Route (for testing)
 app.get('/', (req, res) => {
