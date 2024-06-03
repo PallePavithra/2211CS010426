@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 });
 
 // Route to fetch records from MongoDB
-app.get('/StudentList', async (req, res) => {
+app.get('/studentlist', async (req, res) => {
     try {
         const client = await MongoClient.connect(MONGODB_URI, { useUnifiedTopology: true });
         const db = client.db();
@@ -46,4 +46,5 @@ app.use((err, req, res, next) => {
     console.error("Error middleware:", err);
     res.status(500).send('Something went wrong!');
 });
+
 
