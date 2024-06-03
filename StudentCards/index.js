@@ -1,4 +1,3 @@
-
 // Import Express.js and MongoDB libraries
 const express = require('express'); // npm install express
 const { MongoClient } = require('mongodb'); // npm install mongodb
@@ -16,7 +15,7 @@ app.listen(PORT, () => {
 });
 
 // MongoDB connection URI
-const MONGODB_URI = 'mongodb://localhost:27017/'; // Adjust to your MongoDB URI
+const MONGODB_URI = 'mongodb://localhost:27017/Student'; // Adjust to your MongoDB URI
 
 // Default Route (for testing)
 app.get('/', (req, res) => {
@@ -24,11 +23,11 @@ app.get('/', (req, res) => {
 });
 
 // Route to fetch records from MongoDB
-app.get('/studentlist', async (req, res) => {
+app.get('/StudentList', async (req, res) => {
     try {
         const client = await MongoClient.connect(MONGODB_URI, { useUnifiedTopology: true });
         const db = client.db();
-        const collection = db.collection('studentlist');
+        const collection = db.collection('StudentList');
 
         // Fetch one record
         const record = await collection.find({}).toArray();
